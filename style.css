@@ -1,11 +1,10 @@
 body{
-    background-color: #3a4950;
+    background:#dfab02;
     color:#f8f3f3;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size:100%;
-    background-position: top;
+    /* background-position: top; */
 }
-
 .form-control{
     background-color:rgba(255, 255, 255, 0.2);
     padding: 22px;
@@ -14,34 +13,62 @@ body{
 }
 .btn{
     border-radius: 1.5rem;
-    padding: 9px 20px;
+  
 }
 
 .btn-privious{
     background: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
+    color: white;
 }
 .navbar-toggler {
     border: none;
 }
 .search-box{
     position: relative;
+   
 }
 .search-btn {
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
+    
 }
 .single-result{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 }
 /*  */
-#meal-details{
-    width: 200px;
+
+.col-md-4{
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    margin: 20px;
 }
-#meal-container{
-    border-radius: 10px !important;
+.col-md-4 img{
+    width:100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.col-md-4 button{
+    margin-bottom: 10px;
+}
+.meal-box{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.meal-box img{
+    width:320px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.ingredients-list{
+    list-style: none;
+    color: teal;
+    font-style: italic;
 }
 
