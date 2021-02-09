@@ -5,6 +5,7 @@ body{
     background-size:100%;
     /* background-position: top; */
 }
+/*  */
 .form-control{
     background-color:rgba(255, 255, 255, 0.2);
     padding: 22px;
@@ -39,7 +40,6 @@ body{
     border-radius: 15px;
 }
 /*  */
-
 .col-md-4{
     border-radius: 10px;
     text-align: center;
@@ -65,7 +65,6 @@ body{
     padding: 10px;
 
 }
-
 .ingredients-list{
     list-style: none;
     color: teal;

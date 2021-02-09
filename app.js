@@ -48,10 +48,5 @@ const displayDetails = (ingredients) => {
      <li><h5>${ingredients.strIngredient9}</h5</li>
      <li><h5>${ingredients.strIngredient10}</h5</li>
     </ul>
-
      `;
-
-  // console.log(${ingredients.strIngredient});
-  // console.log(ingredients.strIngredient2);
-  // console.log(ingredients.strIngredient3);
 };
